@@ -1,0 +1,149 @@
+body {
+    background-color: #EBF4FF;
+}
+
+.sidebarDashboard {
+    padding: 1%;
+    width: 20%;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebarDashboard h1, .sidebarDashboard h2, .sidebarDashboard ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001D3D;
+    list-style: none;
+}
+
+.sidebarDashboard a {
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #001D3D;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001D3D;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    margin: 10%;
+}
+
+li a:hover {
+    color: #fff;
+    background-color: #003566;
+}
+
+.ticketContainer {
+    margin-left: 20%;
+    padding: 0 4%;
+    height: 100%;
+    width: calc(100% - 20% - 4%); /* Calcula el ancho restante */
+}
+
+.ticketContainer h1{
+    font-family: Helvetica;
+    color: #001D3D;
+    font-size: 30px;
+}
+
+.ticket-header {
+    background-color: #0035660e;
+    border-radius: 12px;
+    padding: 2%;
+    margin-right: 8%;
+    font-size: 20px;
+    box-shadow: #001D3D;
+}
+
+.ticketContainer h2, .ticketContainer h3, .ticketContainer h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001D3D;
+    font-size: 20px;
+    margin: 1%;
+    font-size: small;
+}
+
+.ticketContainer table{
+    background-color: #0035660e;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    padding: 2%;
+    box-shadow: #001D3D;
+}
+
+.ticketContainer .td{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001D3D;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+
+/* Estilo general para todos los input */
+.input-cell {
+    width: 100%;             /* Para que ocupe todo el ancho de la celda */
+    padding: 8px;            /* Espaciado interno */
+    margin: 0;               /* Elimina márgenes */
+    border: 1px solid #ccc;  /* Borde del input */
+    border-radius: 12px;      /* Bordes redondeados */
+    font-size: 14px;         /* Tamaño de fuente */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: #001D3D;
+    box-sizing: border-box;  /* Incluye padding y border en el width total */
+}
+
+/* Cambia el color del borde al hacer focus */
+.input-cell:focus {
+    border-color: #001D3D;   /* Cambia el color del borde al hacer focus */
+    outline: none;           /* Elimina el outline predeterminado */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra al hacer focus */
+}
+
+/* Placeholder color */
+.input-cell::placeholder {
+    color: #aaa;             /* Color del texto placeholder */
+    opacity: 1;              /* Asegura que no se vea transparente */
+}
+
+/* Estilo para los inputs numéricos específicos */
+input[type="number"].input-cell {
+    text-align: center;       /* Alinea el texto a la derecha */
+}
+
+.add-row-btn, .total-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #001D3D;
+    color: #EBF4FF;
+    margin-top: 10px;
+    padding: 1%;
+    border-radius: 12px;
+    width: 200px; /* Ancho fijo para ambos botones */
+    display: inline-block; /* Asegura que ambos botones respeten el ancho */
+}
+
+.add-row-btn:hover, .total-btn:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBF4FF;
+    color: #001D3D;
+    padding: 1%;
+    border-radius: 12px;
+    border-color: #001D3D;
+}
+
+#summary {
+    align-items: end;
+    margin-top: 10px;           /* Espacio entre la tabla y el resumen */
+    padding: 7px; 
+    padding-left: 7%;
+    color: #001D3D;
+    border-top: 1px solid #ddd;     /* Borde del contenedor */
+    border-bottom: 1px solid #ddd;     /* Borde del contenedor */
+    max-width: 100%;     
+    font-family: Arial, Helvetica, sans-serif;
+}

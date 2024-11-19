@@ -1,0 +1,91 @@
+body {
+    background-color: #EBF4FF;
+}
+
+.sidebarDashboard {
+    padding: 1%;
+    width: 20%;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebarDashboard h1, .sidebarDashboard h2, .sidebarDashboard ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001D3D;
+    list-style: none;
+}
+
+.sidebarDashboard a {
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #001D3D;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001D3D;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    margin: 10%;
+}
+
+li a:hover {
+    color: #fff;
+    background-color: #003566;
+}
+
+.contentDashboard {
+    margin-left: 20%;
+    padding: 0 4%;
+    height: 100%;
+    width: calc(100% - 20% - 4%); /* Calcula el ancho restante */
+}
+
+.headerDash h1 {
+    font-family: Anton;
+    color: #001D3D;
+    margin: 1%;
+}
+
+.contentDash a {
+    color: #001D3D; 
+    text-decoration: none; 
+    padding: 4%;
+    font-size: 12px;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentDash a:hover {
+    color: #fff;  
+    background-color: #001D3D;
+}
+
+.ticketsInfo, .Budget, .Income {
+    color: #001D3D;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 3%;
+    width: 24%; /* Asegura que todos los elementos tienen el mismo ancho */
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Storyline {
+    color: #001D3D;   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    padding: 3%;
+    margin: 1%;
+    margin-right: 4%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}

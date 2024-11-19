@@ -1,0 +1,82 @@
+    body{
+        padding: 5%;
+    }
+    h1{
+        color: #001D3D;
+        font-family: "Anton", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        
+    }
+    
+    h3{
+        color: #001D3D;
+        font-weight: bold;
+        font-variant:initial;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    a:hover{ 
+        color: #FFC300;
+        text-decoration: moccasin;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a{ 
+        color: #001D3D;
+        text-decoration: moccasin;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    p{
+        color: #001D3D;
+        font-family: Helvetica;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+        /*border-collapse: collapse;*/
+        padding: 5px;
+        text-align: center;
+    }
+    th{
+        background-color: #001D3D;
+        color: #ffffff;
+        font-family: Anton;
+    }
+    td{
+        font-family: Antonio;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    caption{
+        font-family: Antonio;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
+        color: #001D3D;
+        margin-bottom: 12px;
+    }
+
+    tr:nth-child(even){
+        background-color: aliceblue;
+    }
+
+    tr:nth-child(odd){
+        background-color: #ffffff;
+    }
+
+    .anton-regular {
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    ul{
+        list-style-type: none;
+        background-color: #001D3D;
+    }
+    li{
+        float: left;
+    }

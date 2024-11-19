@@ -1,0 +1,55 @@
+*{
+    background-color: #ffffff;
+}
+body{
+padding: 5% 5% 5% 5%;
+}
+
+h1{
+    color: #001D3D;
+    font-weight: bold;
+    font-variant:initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#titulo{
+    color: red;
+    font-weight: bold;
+    font-variant:initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:link{ 
+    color: #fff;
+    background-color: #001D3D;
+    padding: 1%;
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a:hover{ 
+    color: #FFC300;
+    text-decoration: moccasin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:bag{ 
+    color: #FFC300;
+    text-decoration: moccasin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #001D3D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.othertools .h2{
+    border: 5px solid #001D3D;
+    padding: 2%;
+    margin: 1%;
+    background-color: #fff;
+    text-align: left;
+    color: beige;
+}
